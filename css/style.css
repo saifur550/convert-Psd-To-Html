@@ -99,3 +99,23 @@ width: 100%;
   color: #ffffff;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 576px) {
+
+  .header_section{
+  padding: 1rem 0;
+  }
+  .inner_header{
+    display: flex;
+   flex-direction: column;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trial-btn{
+    height: 45px;
+  }
+}
